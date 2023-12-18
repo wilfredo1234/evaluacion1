@@ -12,21 +12,18 @@
         android:textSize="24sp"
         android:layout_gravity="center"/>
 
-    <!-- EditText para ingresar el nombre -->
     <EditText
         android:id="@+id/etNombre"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Ingrese su nombre"/>
 
-    <!-- EditText para ingresar el sueldo -->
     <EditText
         android:id="@+id/etSueldo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Ingrese su sueldo"/>
 
-    <!-- Botón para realizar el cálculo -->
     <Button
         android:id="@+id/btnCalcularContrato"
         android:layout_width="wrap_content"
@@ -39,7 +36,6 @@
         android:layout_height="wrap_content"
         android:text="Volver al Inicio"/>
 
-    <!-- Otros elementos según sea necesario -->
 
 </LinearLayout>
 
